@@ -1,0 +1,17 @@
+<manifest>
+
+  <remote  name="gitlab-server"
+           review="https://gitlab.ssla.co.uk/android/" />
+
+  <!-- Projects updated by Kynetics and Boundary Devices -->
+  <project path="device/boundary" name="device/boundary" revision="boundary-imx-p9.0.0_1.0.0-ga" groups="boundary" />
+  <project path="build/make" name="build/make"  revision="boundary-imx-p9.0.0_1.0.0-ga" groups="boundary" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+</manifest>
