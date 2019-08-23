@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="gitlab-server"
-           review="https://gitlab.ssla.co.uk/android/" />
+           fetch="https://gitlab.ssla.co.uk/android/" />
 
   <!-- Projects updated by Kynetics and Boundary Devices -->
   <project path="device/boundary" name="device/boundary" revision="boundary-imx-p9.0.0_1.0.0-ga" groups="boundary" />
