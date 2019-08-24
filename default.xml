@@ -732,7 +732,6 @@
   <project path="tools/test/connectivity" revision="refs/tags/android-9.0.0_r16" name="tools/test/connectivity" groups="pdk" />
   <project path="tools/tradefederation/core" revision="refs/tags/android-9.0.0_r16" name="tools/tradefederation/core" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" revision="refs/tags/android-9.0.0_r16" name="tools/tradefederation/contrib" groups="pdk,tradefed" />
-  <project path="tools/tradefederation/contrib" revision="refs/tags/android-9.0.0_r16" name="tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <project path="vendor/nxp/fsl-codec" name="vendor/nxp/fsl-codec" revision="master" />
   <project path="vendor/nxp/fsl_imx_omx" name="vendor/nxp/fsl_imx_omx" revision="master" />
