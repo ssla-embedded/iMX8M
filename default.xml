@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="gitlab-server"
-           fetch="ssh://gitlab.ssla.co.uk/android/" />
+           fetch="https://gitlab.ssla.co.uk/android/" />
   <default revision="refs/tags/android-9.0.0_r16"
            remote="gitlab-server"
            sync-j="4" />
