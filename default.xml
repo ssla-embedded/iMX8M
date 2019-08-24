@@ -3,7 +3,8 @@
 
   <remote  name="gitlab-server"
            fetch="https://gitlab.ssla.co.uk/android/" />
-  <default remote="gitlab-server"
+  <default revision="refs/tags/android-9.0.0_r16"
+           remote="gitlab-server"
            sync-j="4" />
 
   <!-- Projects updated by Kynetics and Boundary Devices -->
@@ -743,5 +744,5 @@
   <project path="vendor/nxp/qca-wifi-bt" name="vendor/nxp/qca-wifi-bt" revision="master" />
   <project path="." name="vendor/nxp/eula-scr" revision="master" />
 
-  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+  <repo-hooks in-project="tools/repohooks" enabled-list="pre-upload" />
 </manifest>
