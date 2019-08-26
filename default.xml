@@ -773,6 +773,7 @@
   <project path="vendor/nxp/imx-vpu-cnm" name="vendor/nxp/imx-vpu-cnm" remote="gitlab-server" revision="master" />
   <project path="vendor/nxp/imx-vpu-hantro" name="vendor/nxp/imx-vpu-hantro" remote="gitlab-server" revision="master" />
   <project path="vendor/nxp/linux-firmware-imx" name="vendor/nxp/linux-firmware-imx" remote="gitlab-server" revision="master" />
+  <project path="ssl" name="ssl" remote="gitlab-server" revision="master" />
   <project path="vendor/nxp/qca-wifi-bt" name="vendor/nxp/qca-wifi-bt" remote="gitlab-server" revision="master" />
   <project path="." name="vendor/nxp/eula-scr" remote="gitlab-server" revision="master" />
 
