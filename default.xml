@@ -55,7 +55,7 @@
   <project path="vendor/boundary/imx-mkimage" name="imx-mkimage" remote="boundary-github" revision="boundary-imx_4.9.123_imx8mm_ga" groups="boundary" />
   <project path="vendor/boundary/kernel_imx" name="linux-imx6" remote="boundary-github" revision="boundary-imx-p9.0.0_1.0.0-ga" groups="boundary" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="boundary-github" revision="boundary-imx-p9.0.0_1.0.0-ga" />
-  <project path="external/qca-firmware" name="qca-firmware" remote="boundary-linode" revision="master" />
+  <project path="external/qca-firmware" name="external/qca-firmware" remote="gitlab-server" revision="master" />
 
   <!-- For imx git. -->
   <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="3a01285785a7391bb62b5fcf0400208c3fe391bf" />
