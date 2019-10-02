@@ -8,5 +8,9 @@
         <remove-project name="platform/bootable/recovery"/>
         <project path="bootable/recovery" name="ssla-bootable-recovery" remote="gitlab-server" revision="master"/>
 
+        <!--project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" /-->
+        <remove-project name="platform/system/sepolicy"/>
+        <project path="system/sepolicy" name="ssla-system-sepolicy" remote="gitlab-server" revision="master"/>
+
 </manifest>
 
