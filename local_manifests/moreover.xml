@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="gitlab-server"
+           fetch="https://gitlab.ssla.co.uk/android/" />
+
+        <!--project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" /-->
+        <remove-project name="platform/bootable/recovery"/>
+        <project path="bootable/recovery" name="ssla-bootable-recovery" remote="gitlab-server" revision="master"/>
+
+</manifest>
+
