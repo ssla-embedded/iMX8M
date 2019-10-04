@@ -10,7 +10,7 @@
 
         <!--project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" /-->
         <remove-project name="platform/system/sepolicy"/>
-        <project path="system/sepolicy" name="ssla-system-sepolicy" remote="gitlab-server" revision="83328ffb65b043e3b5aa9bc0fad57a4bc4412400"/>
+        <project path="system/sepolicy" name="ssla-system-sepolicy" remote="gitlab-server" revision="e15e7fe6db7288d26ad48f6fe34eda2c3674763d"/>
 
 </manifest>
 
