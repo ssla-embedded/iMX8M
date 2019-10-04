@@ -6,7 +6,7 @@
 
         <!--project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" /-->
         <remove-project name="platform/bootable/recovery"/>
-        <project path="bootable/recovery" name="ssla-bootable-recovery" remote="gitlab-server" revision="b17429d722d58072bef1fad567e257ddb8441099"/>
+        <project path="bootable/recovery" name="ssla-bootable-recovery" remote="gitlab-server" revision="62fa0748c32af3a4f22cf37d3f1be2baee75d6a8"/>
 
         <!--project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" /-->
         <remove-project name="platform/system/sepolicy"/>
