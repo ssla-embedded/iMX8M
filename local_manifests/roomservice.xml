@@ -12,5 +12,9 @@
         <remove-project name="platform/system/sepolicy"/>
         <project path="system/sepolicy" name="ssla-system-sepolicy" remote="gitlab-server" revision="e15e7fe6db7288d26ad48f6fe34eda2c3674763d"/>
 
+        <!--project path="device/boundary" name="android_device_boundary" remote="boundary-github" revision="boundary-imx-p9.0.0_1.0.0-ga" groups="boundary" /-->
+        <remove-project name="android_device_boundary"/>
+        <project path="device/boundary" name="ssla-device-boundary" remote="gitlab-server" revision="ea28ae76187f5a6a677d90b79f5e4b800822af60"/>
+
 </manifest>
 
