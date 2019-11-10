@@ -16,5 +16,9 @@
         <remove-project name="android_device_boundary"/>
         <project path="device/boundary" name="ssla-device-boundary" remote="gitlab-server" revision="f00f68030360b93409d855e05e5ea2a95a6096bd"/>
 
+        <!--project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" /-->
+        <remove-project name="platform/frameworks/native"/>
+        <project path="frameworks/native" name="ssla-frameworks-native" remote="gitlab-server" revision="529bcf4503da58f7b476267bd5253a7fd6b95fc2"/>
+
 </manifest>
 
