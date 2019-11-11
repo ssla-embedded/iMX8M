@@ -20,5 +20,8 @@
         <remove-project name="platform/frameworks/native"/>
         <project path="frameworks/native" name="ssla-frameworks-native" remote="gitlab-server" revision="529bcf4503da58f7b476267bd5253a7fd6b95fc2"/>
 
+        <!--Added new project /-->
+        <project path="vendor/ssla/config" name="ssla-vendor-ssla-config" remote="gitlab-server" revision="88c0805d2d2cfe54343edfdf6cb1f07fc548a87b"/>
+
 </manifest>
 
