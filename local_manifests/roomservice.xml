@@ -14,7 +14,7 @@
 
         <!--project path="device/boundary" name="android_device_boundary" remote="boundary-github" revision="boundary-imx-p9.0.0_1.0.0-ga" groups="boundary" /-->
         <remove-project name="android_device_boundary"/>
-        <project path="device/boundary" name="ssla-device-boundary" remote="gitlab-server" revision="1eb2cc2492a853edd073b44e3378f89c95790895"/>
+        <project path="device/boundary" name="ssla-device-boundary" remote="gitlab-server" revision="193e54b3ad936758e1606b419028984e774a06c3"/>
 
         <!--project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" /-->
         <remove-project name="platform/frameworks/native"/>
