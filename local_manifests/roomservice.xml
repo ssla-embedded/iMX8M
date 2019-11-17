@@ -24,6 +24,10 @@
         <remove-project name="platform/system/core"/>
         <project path="system/core" name="ssla-system-core" remote="gitlab-server" revision="6a3b7da0d6a488aba761b5554534ff95a1c8eaa7"/>
 
+        <!--project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" /-->
+        <remove-project name="platform/frameworks/base"/>
+        <project path="frameworks/base" name="ssla-frameworks-base" remote="gitlab-server" revision="a7e35c10ac016b90816492539af0a936808141d7"/>
+
         <!--Added new project /-->
         <!--project path="vendor/ssla/config" name="ssla-vendor-ssla-config" remote="gitlab-server" revision="88c0805d2d2cfe54343edfdf6cb1f07fc548a87b"/-->
 
