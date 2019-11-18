@@ -30,7 +30,7 @@
 
         <!--project path="vendor/nxp-opensource/fsl_imx_demo" name="platform/packages/apps/fsl_imx_demo" remote="android-imx-orig" revision="refs/tags/p9.0.0_1.0.0-ga" /-->
         <remove-project name="platform/packages/apps/fsl_imx_demo"/>
-        <project path="vendor/nxp-opensource/fsl_imx_demo" name="ssla-vendor-nxp-opensource-fsl_imx_demo" remote="gitlab-server" revision="e5603f2120342c8ee75e5e584901f61b64a554a4"/>
+        <project path="vendor/nxp-opensource/fsl_imx_demo" name="ssla-vendor-nxp-opensource-fsl_imx_demo" remote="gitlab-server" revision="4ad5144aa921e5a63f818a30b88f6c6399e9e480"/>
 
         <!--Added new project /-->
         <!--project path="vendor/ssla/config" name="ssla-vendor-ssla-config" remote="gitlab-server" revision="88c0805d2d2cfe54343edfdf6cb1f07fc548a87b"/-->
