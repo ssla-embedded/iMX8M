@@ -26,7 +26,11 @@
 
         <!--project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" /-->
         <remove-project name="platform/frameworks/base"/>
-        <project path="frameworks/base" name="ssla-frameworks-base" remote="gitlab-server" revision="a7e35c10ac016b90816492539af0a936808141d7"/>
+        <project path="frameworks/base" name="ssla-frameworks-base" remote="gitlab-server" revision="6d4e71145a7d6bc113344c93f0707e75042563cd"/>
+
+        <!--project path="vendor/nxp-opensource/fsl_imx_demo" name="platform/packages/apps/fsl_imx_demo" remote="android-imx-orig" revision="refs/tags/p9.0.0_1.0.0-ga" /-->
+        <remove-project name="platform/packages/apps/fsl_imx_demo"/>
+        <project path="vendor/nxp-opensource/fsl_imx_demo" name="ssla-vendor-nxp-opensource-fsl_imx_demo" remote="gitlab-server" revision="e5603f2120342c8ee75e5e584901f61b64a554a4"/>
 
         <!--Added new project /-->
         <!--project path="vendor/ssla/config" name="ssla-vendor-ssla-config" remote="gitlab-server" revision="88c0805d2d2cfe54343edfdf6cb1f07fc548a87b"/-->
