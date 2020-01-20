@@ -45,7 +45,7 @@
         </project>
 
         <remove-project name="linux-imx6"/>
-        <project path="vendor/boundary/kernel_imx" name="ssla-vendor-boundary-kernel_imx" remote="gitlab-server" revision="ec376274b44bb168d39fde4466f1732fe5821912" />
+        <project path="vendor/boundary/kernel_imx" name="ssla-vendor-boundary-kernel_imx" remote="gitlab-server" revision="df7b221fa139b44e08850978d79076f620ae891a" />
 
         <!--Added new project /-->
         <!--project path="vendor/ssla/config" name="ssla-vendor-ssla-config" remote="gitlab-server" revision="88c0805d2d2cfe54343edfdf6cb1f07fc548a87b"/-->
