@@ -48,7 +48,7 @@
         <project path="vendor/boundary/kernel_imx" name="ssla-vendor-boundary-kernel_imx" remote="gitlab-server" revision="aa72fc08a367fb7d7b2c28866d78c906c9ae25ad" />
 
         <!--Added bootanim project /-->
-        <project path="vendor/acura/bootanim" name="ssla-vendor-acura-bootanim" remote="gitlab-server" revision="8c72c21e072e132ca686768bd858320ac6e53436"/>
+        <project path="vendor/acura/bootanim" name="ssla-vendor-acura-bootanim" remote="gitlab-server" revision="4e3f999c44034bc86fdf291e34b31ad47df41795"/>
 
         <!--Added new project /-->
         <!--project path="vendor/ssla/config" name="ssla-vendor-ssla-config" remote="gitlab-server" revision="88c0805d2d2cfe54343edfdf6cb1f07fc548a87b"/-->
