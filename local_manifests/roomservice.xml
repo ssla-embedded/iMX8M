@@ -47,6 +47,9 @@
         <remove-project name="linux-imx6"/>
         <project path="vendor/boundary/kernel_imx" name="ssla-vendor-boundary-kernel_imx" remote="gitlab-server" revision="aa72fc08a367fb7d7b2c28866d78c906c9ae25ad" />
 
+        <remove-project name="u-boot-imx6"/>
+        <project path="vendor/boundary/uboot-imx" name="sla-vendor-boundary-uboot-imx" remote="gitlab-server" revision="9a1f01d30d1ad26031fc92369c098a7f2290c714" />
+
         <!--Added bootanim project /-->
         <project path="vendor/acura/bootanim" name="ssla-vendor-acura-bootanim" remote="gitlab-server" revision="4e3f999c44034bc86fdf291e34b31ad47df41795"/>
 
