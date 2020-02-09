@@ -14,7 +14,7 @@
 
         <!--project path="device/boundary" name="android_device_boundary" remote="boundary-github" revision="boundary-imx-p9.0.0_1.0.0-ga" groups="boundary" /-->
         <remove-project name="android_device_boundary"/>
-        <project path="device/boundary" name="ssla-device-boundary" remote="gitlab-server" revision="3768d5d76dda9a65c874eb797da7d0a1acf53b10"/>
+        <project path="device/boundary" name="ssla-device-boundary" remote="gitlab-server" revision="c86d79493fb37825d9a464e9b4b04ebf6a25826b"/>
 
         <!--project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" /-->
         <remove-project name="platform/frameworks/native"/>
@@ -45,10 +45,10 @@
         </project>
 
         <remove-project name="linux-imx6"/>
-        <project path="vendor/boundary/kernel_imx" name="ssla-vendor-boundary-kernel_imx" remote="gitlab-server" revision="aa72fc08a367fb7d7b2c28866d78c906c9ae25ad" />
+        <project path="vendor/boundary/kernel_imx" name="ssla-vendor-boundary-kernel_imx" remote="gitlab-server" revision="3609e0f63296952388f5230080c85c3518336352" />
 
         <remove-project name="u-boot-imx6"/>
-        <project path="vendor/boundary/uboot-imx" name="ssla-vendor-boundary-uboot-imx" remote="gitlab-server" revision="9a1f01d30d1ad26031fc92369c098a7f2290c714" />
+        <project path="vendor/boundary/uboot-imx" name="ssla-vendor-boundary-uboot-imx" remote="gitlab-server" revision="627e8b393d19bfc94d32ad30e95caeab5441da1f" />
 
         <!--Added bootanim project /-->
         <project path="vendor/acura/bootanim" name="ssla-vendor-acura-bootanim" remote="gitlab-server" revision="4e3f999c44034bc86fdf291e34b31ad47df41795"/>
