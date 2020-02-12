@@ -53,6 +53,7 @@
         <!--Added bootanim project /-->
         <project path="vendor/acura/bootanim" name="ssla-vendor-acura-bootanim" remote="gitlab-server" revision="4e3f999c44034bc86fdf291e34b31ad47df41795"/>
 
+        <!--Added bellow project's to overcome repo sync errors/-->
         <remove-project name="device/google/wahoo"/>
         <project path="device/google/wahoo" name="ssla-device-google-wahoo" remote="gitlab-server" revision="d8dee4f112f1fabf1a7e03866ae5860261f0bd7c"/>
         <remove-project name="platform/external/tensorflow"/>
