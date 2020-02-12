@@ -53,6 +53,15 @@
         <!--Added bootanim project /-->
         <project path="vendor/acura/bootanim" name="ssla-vendor-acura-bootanim" remote="gitlab-server" revision="4e3f999c44034bc86fdf291e34b31ad47df41795"/>
 
+        <remove-project name="device/google/wahoo"/>
+        <project path="device/google/wahoo" name="ssla-device-google-wahoo" remote="gitlab-server" revision="d8dee4f112f1fabf1a7e03866ae5860261f0bd7c"/>
+        <remove-project name="platform/external/tensorflow"/>
+        <project path="external/tensorflow" name="ssla-platform-external-tensorflow" remote="gitlab-server" revision="b32657707693d52a56f900516ae95621ee50c5e9"/>
+        <remove-project name="platform/packages/apps/TV"/>
+        <project path="packages/apps/TV" name="ssla-platform-packages-apps-TV" remote="gitlab-server" revision="96e9113dc0d9aa725b4cf94f811ab1639c6ac02a"/>
+        <remove-project name="platform/external/perfetto"/>
+        <project path="external/perfetto" name="ssla-platform-external-perfetto" remote="gitlab-server" revision="0d46b970030a887c25345dea87e05c4d925c3ac1"/>
+
         <!--Added new project /-->
         <!--project path="vendor/ssla/config" name="ssla-vendor-ssla-config" remote="gitlab-server" revision="88c0805d2d2cfe54343edfdf6cb1f07fc548a87b"/-->
 
