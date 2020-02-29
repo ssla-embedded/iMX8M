@@ -6,7 +6,7 @@
 
         <!--project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" /-->
         <remove-project name="platform/bootable/recovery"/>
-        <project path="bootable/recovery" name="ssla-bootable-recovery" remote="gitlab-server" revision="7b5897d138c33c3269a637c0b7b4ec180528b4bb"/>
+        <project path="bootable/recovery" name="ssla-bootable-recovery" remote="gitlab-server" revision="06aab26588c280d5f6aec6cc1a6976fe19088035"/>
 
         <!--project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" /-->
         <remove-project name="platform/system/sepolicy"/>
@@ -34,7 +34,7 @@
 
         <!--project path="build/make" name="android_build" remote="boundary-github" revision="boundary-imx-p9.0.0_1.0.0-ga" groups="boundary" -->
         <remove-project name="android_build"/>
-        <project path="build/make" name="ssla-build-make" remote="gitlab-server" revision="0f01d4755232cf3f98e00ceaae6ace1fd357bcfd" >
+        <project path="build/make" name="ssla-build-make" remote="gitlab-server" revision="d8e854118c9262efe2e13e8ba253287356cb8682" >
             <copyfile src="core/root.mk" dest="Makefile" />
             <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
             <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -48,7 +48,7 @@
         <project path="vendor/boundary/kernel_imx" name="ssla-vendor-boundary-kernel_imx" remote="gitlab-server" revision="3609e0f63296952388f5230080c85c3518336352" />
 
         <remove-project name="u-boot-imx6"/>
-        <project path="vendor/boundary/uboot-imx" name="ssla-vendor-boundary-uboot-imx" remote="gitlab-server" revision="627e8b393d19bfc94d32ad30e95caeab5441da1f" />
+        <project path="vendor/boundary/uboot-imx" name="ssla-vendor-boundary-uboot-imx" remote="gitlab-server" revision="36518ba71708c27bbd10e79bd38a001467f4d2bd" />
 
         <!--Added bootanim project /-->
         <project path="vendor/acura/bootanim" name="ssla-vendor-acura-bootanim" remote="gitlab-server" revision="4e3f999c44034bc86fdf291e34b31ad47df41795"/>
