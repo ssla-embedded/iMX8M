@@ -62,6 +62,8 @@
         <project path="packages/apps/TV" name="ssla-platform-packages-apps-TV" remote="gitlab-server" revision="96e9113dc0d9aa725b4cf94f811ab1639c6ac02a"/>
         <remove-project name="platform/external/perfetto"/>
         <project path="external/perfetto" name="ssla-platform-external-perfetto" remote="gitlab-server" revision="0d46b970030a887c25345dea87e05c4d925c3ac1"/>
+        <remove-project name="platform/libcore"/>
+        <project path="libcore" name="ssla-libcore" remote="gitlab-server" revision="176c0447401e657707fc7b9799a93fe95f129f45"/>
 
         <!--Added new project /-->
         <!--project path="vendor/ssla/config" name="ssla-vendor-ssla-config" remote="gitlab-server" revision="88c0805d2d2cfe54343edfdf6cb1f07fc548a87b"/-->
