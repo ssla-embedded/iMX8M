@@ -34,7 +34,7 @@
 
         <!--project path="build/make" name="android_build" remote="boundary-github" revision="boundary-imx-p9.0.0_1.0.0-ga" groups="boundary" -->
         <remove-project name="android_build"/>
-        <project path="build/make" name="ssla-build-make" remote="gitlab-server" revision="4fe2c6c074775f16b7eab630d98957751c6ffa8b" >
+        <project path="build/make" name="ssla-build-make" remote="gitlab-server" revision="a0a752cf442461621facc776e0072f3f23228729" >
             <copyfile src="core/root.mk" dest="Makefile" />
             <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
             <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
